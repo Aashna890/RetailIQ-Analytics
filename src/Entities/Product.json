@@ -1,0 +1,66 @@
+{
+  "name": "Product",
+  "type": "object",
+  "properties": {
+    "product_name": {
+      "type": "string",
+      "description": "Name of the product"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "electronics",
+        "clothing",
+        "home",
+        "beauty",
+        "sports",
+        "books",
+        "toys",
+        "food"
+      ],
+      "description": "Product category"
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "Product subcategory"
+    },
+    "price": {
+      "type": "number",
+      "description": "Product price"
+    },
+    "cost": {
+      "type": "number",
+      "description": "Product cost"
+    },
+    "stock_quantity": {
+      "type": "number",
+      "default": 0,
+      "description": "Current stock quantity"
+    },
+    "reorder_level": {
+      "type": "number",
+      "description": "Minimum stock before reorder"
+    },
+    "total_sold": {
+      "type": "number",
+      "default": 0,
+      "description": "Total units sold"
+    },
+    "revenue_generated": {
+      "type": "number",
+      "default": 0,
+      "description": "Total revenue from this product"
+    },
+    "average_rating": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Average customer rating"
+    }
+  },
+  "required": [
+    "product_name",
+    "category",
+    "price"
+  ]
+}

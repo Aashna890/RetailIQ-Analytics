@@ -1,0 +1,75 @@
+{
+  "name": "Customer",
+  "type": "object",
+  "properties": {
+    "customer_name": {
+      "type": "string",
+      "description": "Full name of the customer"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "Customer email address"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Contact phone number"
+    },
+    "country": {
+      "type": "string",
+      "description": "Customer country"
+    },
+    "city": {
+      "type": "string",
+      "description": "Customer city"
+    },
+    "age": {
+      "type": "number",
+      "description": "Customer age"
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "male",
+        "female",
+        "other"
+      ],
+      "description": "Customer gender"
+    },
+    "segment": {
+      "type": "string",
+      "enum": [
+        "premium",
+        "regular",
+        "budget",
+        "at_risk"
+      ],
+      "description": "Customer segment based on behavior"
+    },
+    "total_purchases": {
+      "type": "number",
+      "default": 0,
+      "description": "Total number of purchases made"
+    },
+    "total_spent": {
+      "type": "number",
+      "default": 0,
+      "description": "Total amount spent"
+    },
+    "last_purchase_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of last purchase"
+    },
+    "churn_risk_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Risk score for customer churn (0-100)"
+    }
+  },
+  "required": [
+    "customer_name",
+    "email"
+  ]
+}
