@@ -7,37 +7,56 @@ It provides real-time analytics, customer segmentation, sales forecasting, anoma
 🚀 Features
 
 ✔ Data Import & ETL Pipeline
+
+
 CSV/Excel upload
+
 Schema detection
+
 Data cleaning (duplicates, missing values, normalization)
+
 Transaction aggregation (flattened → grouped)
 
 ✔ Customer Segmentation (K-Means | RFM Model)
 
+
 Premium, Regular, Budget, At-Risk clusters
+
 Segment insights & retention strategies
 
 ✔ Market Basket Analysis (Apriori + FP-Growth)
 
+
 Frequent itemsets
+
 Support, confidence, lift
+
 AI-generated bundles & cross-sell strategy
 
 ✔ Sales Forecasting (Linear Regression)
 
+
 3-month demand forecasting
+
 R² accuracy
 Reorder recommendations
 
 ✔ Fraud & Anomaly Detection (Isolation Forest)
 
+
 High-severity transaction flags
+
 Risk scoring
+
 Pattern analysis
+
 ✔ Product Recommendation Engine
 
+
 Personalized recommendations
+
 Confidence scoring
+
 Segment-based offers
 
 🏗️ System Architecture
@@ -51,13 +70,20 @@ Data Layer (Star Schema / LocalStorage)
 
 
 ⚙️ Installation & Setup
+
+
 Frontend
+
 cd frontend
+
 npm install
+
 npm start
 
 Backend
+
 cd backend
+
 pip install -r requirements.txt
 uvicorn main:app --reload
 
