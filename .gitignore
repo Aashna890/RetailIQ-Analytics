@@ -139,10 +139,28 @@ dist
 *.sqlite
 *.sqlite3
 
-# Environment variables
 .env
 
 
-# Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+node_modules/
+dist/
+.next/
+out/
+
+__pycache__/
+*.pyc
+.venv/
+
+.env
+.env.*
+*.env
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+
