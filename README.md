@@ -1,10 +1,10 @@
-📊 RetailIQ – Intelligent Retail Analytics Platform
+# 📊 RetailIQ – Intelligent Retail Analytics Platform
 Data Warehousing & Mining using Machine Learning
 
 RetailIQ is a full-stack analytical platform designed for retailers to turn raw transactional data into actionable insights using Data Warehousing, Data Mining, and Machine Learning.
 It provides real-time analytics, customer segmentation, sales forecasting, anomaly detection, recommendation systems, and market basket analysis through a clean and interactive UI.
 
-🚀 Features
+## 🚀 Features
 
 ✔ Data Import & ETL Pipeline
 
@@ -59,7 +59,7 @@ Confidence scoring
 
 Segment-based offers
 
-🏗️ System Architecture
+## 🏗️ System Architecture
 Frontend (React.js)
       │
       ▼
@@ -69,10 +69,10 @@ Backend API (FastAPI + ML Models)
 Data Layer (Star Schema / LocalStorage)
 
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
 
-Frontend
+### Frontend
 
 cd frontend
 
@@ -80,14 +80,14 @@ npm install
 
 npm start
 
-Backend
+### Backend
 
 cd backend
 
 pip install -r requirements.txt
 uvicorn main:app --reload
 
-📊 Key Business Insights Generated
+## 📊 Key Business Insights Generated
 
 Premium customers are 15% of users but 65% of revenue
 
