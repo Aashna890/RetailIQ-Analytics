@@ -1,4 +1,4 @@
-###📊 RetailIQ – Intelligent Retail Analytics Platform
+📊 RetailIQ – Intelligent Retail Analytics Platform
 Data Warehousing & Mining using Machine Learning
 
 RetailIQ is a full-stack analytical platform designed for retailers to turn raw transactional data into actionable insights using Data Warehousing, Data Mining, and Machine Learning.
@@ -11,9 +11,9 @@ It provides real-time analytics, customer segmentation, sales forecasting, anoma
 
 CSV/Excel upload
 
-Schema detection
+Automatic schema detection
 
-Data cleaning (duplicates, missing values, normalization)
+Cleaning (duplicates, missing values, normalization)
 
 Transaction aggregation (flattened → grouped)
 
